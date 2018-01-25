@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/addCoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClickaddcoin"
+        android:text="Добавить монету"></Button>
+
+    <Button
+        android:id="@+id/addCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClickaddland"
+        android:text="Добавить страну"></Button>
+
+
+
+    <ListView
+        android:id="@+id/lvData"
+        style="@style/Widget.AppCompat.ListView.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@color/colorPrimary"
+        android:headerDividersEnabled="true"></ListView>
+</LinearLayout>
