@@ -20,7 +20,10 @@
         android:onClick="onButtonClickaddland"
         android:text="Добавить страну"></Button>
 
-
+  <SearchView
+        android:id="@+id/menu_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></SearchView>
 
     <ListView
         android:id="@+id/lvData"
